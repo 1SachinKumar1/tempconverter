@@ -67,8 +67,8 @@ class _FirstPageState extends State<FirstPage> {
                               width: 80,
                               decoration: const BoxDecoration(
                                   image: DecorationImage(
-                                      image: AssetImage(
-                                          "assets/images/celsius.png"),
+                                      image:
+                                          AssetImage("assets/images/fah.png"),
                                       fit: BoxFit.fill)),
                             ),
                           ),
@@ -110,7 +110,8 @@ class _FirstPageState extends State<FirstPage> {
                               width: 80,
                               decoration: const BoxDecoration(
                                 image: DecorationImage(
-                                    image: AssetImage("assets/images/fah.png"),
+                                    image:
+                                        AssetImage("assets/images/celsius.png"),
                                     fit: BoxFit.fill),
                               ),
                             ),
